@@ -6,3 +6,5 @@ Aplicativo para exemplificar o uso de CI/CD
 => Utilização de plug-in github para jenkins (webhook)
 
 => Precisa de um sistema de fila para executar comandos
+
+=> Utiliza o docker para criação dos ambientes
