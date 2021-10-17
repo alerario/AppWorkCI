@@ -25,6 +25,7 @@ echo "sudo docker stop mongo_test">/filas/fila.cmd'''
         stage('Build ') {
           steps {
             sh 'echo "Realizando build"; '
+            sh 'cd AppWork'
             sh 'mvn clean package'
           }
         }
