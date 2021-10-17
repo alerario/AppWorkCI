@@ -25,7 +25,7 @@ echo "sudo docker stop mongo_test">/filas/fila.cmd && true'''
 
         stage('Build ') {
           steps {
-            sh 'echo "Realizando build"; '
+            echo 'Realizando build...'
             sh 'cd AppWork; mvn clean package'
           }
         }
@@ -46,7 +46,7 @@ echo "sudo docker stop mongo_test">/filas/fila.cmd && true'''
         sleep 1
         sh '''echo "criando banco...">\\filas\\fila.cmd; 
 '''
-        sh '''echo "mongo  mongodb://localhost:27017/testeDB /home/utfpr/volumes/jenkins_test/workspace/$(basename ${WORKSPACE})/script/database/ddl.js">/filas/fila.cmd
+        sh '''echo "mongo  mongodb://localhost:27017/testeDB /home/utfpr/volumes/jenkins/workspace/$(basename ${WORKSPACE})/script/database/ddl.js">/filas/fila.cmd
 '''
       }
     }
