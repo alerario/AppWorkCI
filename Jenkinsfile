@@ -10,7 +10,7 @@ pipeline {
         sh 'ls -la; pwd;'
         sh '''
 
-echo "sudo docker stop mongo_test">/filas/fila.cmd'''
+echo "sudo docker stop mongo_test">/filas/fila.cmd && true'''
         dir(path: 'AppWork')
         sh 'ls -la'
       }
