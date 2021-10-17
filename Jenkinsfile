@@ -11,6 +11,8 @@ pipeline {
         sh '''
 echo "parando mongo_test" >/filas/fila.cmd;
 echo "sudo docker stop mongo_test">/filas/fila.cmd'''
+        dir(path: 'AppWork')
+        sh 'ls -la'
       }
     }
 
@@ -52,7 +54,7 @@ echo "sudo docker stop mongo_test">/filas/fila.cmd'''
 
     stage('Teste') {
       steps {
-        sh 'mvn test'
+        sh 'cd AppWork; mvn test'
       }
     }
 
