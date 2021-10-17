@@ -9,7 +9,7 @@ pipeline {
         echo 'Iniciando pipeline'
         sh 'ls -la; pwd;'
         sh '''
-echo "parando mongo_test" >/filas/fila.cmd;
+
 echo "sudo docker stop mongo_test">/filas/fila.cmd'''
         dir(path: 'AppWork')
         sh 'ls -la'
