@@ -8,3 +8,5 @@ Aplicativo para exemplificar o uso de CI/CD
 => Precisa de um sistema de fila para executar comandos
 
 => Utiliza o docker para criação dos ambientes
+
+=> projeto desenvolvido em Payara e entregue em Open-Liberty
