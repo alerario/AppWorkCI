@@ -68,6 +68,7 @@ echo "sudo docker stop mongo_test">/filas/fila.cmd && true'''
     stage('Fim') {
       steps {
         echo 'Pipeline concluido'
+        echo 'WebConf2'
       }
     }
 
