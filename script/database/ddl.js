@@ -10,4 +10,5 @@ db.Teste.insertMany( [
 	{ codigo: 3, nome: "Teste 3 um produto" },
 	{ codigo: 4, nome: "Teste 4 Verificar" },
 	{ codigo: 5, nome: "Teste 5 Dados atualizados" },
-   ] );
+	{ codigo: 6, nome: "Teste 6 - novos dados" },
+] );
