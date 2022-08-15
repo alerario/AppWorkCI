@@ -10,3 +10,5 @@ Aplicativo para exemplificar o uso de CI/CD
 => Utiliza o docker para criação dos ambientes
 
 => projeto desenvolvido em Payara e entregue em Open-Liberty
+
+=> precisa do JDK11
