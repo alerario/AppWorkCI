@@ -12,3 +12,4 @@ Aplicativo para exemplificar o uso de CI/CD
 => projeto desenvolvido em Payara e entregue em Open-Liberty
 
 => precisa do JDK11
+=> otima referencia para gerar um pipeline
