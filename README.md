@@ -1,5 +1,5 @@
 # AppWorkCI - Com deploy!
-Aplicativo para exemplificar o uso de CI/CD
+Aplicativo para exemplificar o uso de CI/CD - Legal!
 
 => utilização do plug-in BlueOcean para jenkins
 
