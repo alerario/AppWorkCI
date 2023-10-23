@@ -2,7 +2,6 @@
 //para executar:
 // mongo -u <user> -p <password> mongodb01d.mydomain.com:27017/testeDB <yourFile.js> 
 //use testeDB
-
 db.Teste.drop();
 db.Teste.insertMany( [
       { codigo: 1, nome: "Teste numero 1" },
