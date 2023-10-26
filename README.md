@@ -13,4 +13,5 @@ Aplicativo para exemplificar o uso de CI/CD - Legal!
 
 => precisa do JDK11 por causa do ee8
 => otima referencia para gerar um pipeline
+=> precisa de atualizacao
 
