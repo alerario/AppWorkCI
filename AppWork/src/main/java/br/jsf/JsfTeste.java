@@ -21,7 +21,7 @@ import lombok.Setter;
 @RequestScoped
 public class JsfTeste {
 
-    @EJB
+    @EJB11
     private EjbTeste ejbTeste;
 
     /**
